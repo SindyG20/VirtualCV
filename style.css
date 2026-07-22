@@ -898,3 +898,82 @@ nav a:hover{
     padding:60px;
 
 }
+
+/*======================
+      CONTACT
+=======================*/
+
+.contact{
+
+    width:90%;
+    margin:auto;
+    padding:120px 0;
+
+}
+
+.contact-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+}
+
+.contact-card{
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.1);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:20px;
+
+    padding:40px;
+
+    text-align:center;
+
+    transition:.4s;
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 35px rgba(0,198,255,.3);
+
+}
+
+.contact-card i{
+
+    font-size:45px;
+
+    color:#00c6ff;
+
+    margin-bottom:20px;
+
+}
+
+.contact-card h3{
+
+    margin-bottom:15px;
+
+}
+
+.contact-card p,
+.contact-card a{
+
+    color:#d9d9d9;
+
+    text-decoration:none;
+
+}
+
+.contact-card a:hover{
+
+    color:#00c6ff;
+
+}
