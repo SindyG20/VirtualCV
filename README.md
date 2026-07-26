@@ -15,6 +15,9 @@ Welcome to my Virtual CV! This project is a personal portfolio website that show
 - CSS3
 - JavaScript
 
+# Live Demo
+https://visionary-tulumba-b612e7.netlify.app
+
 # Contact
 - LinkedIn: https://linkedin.com/in/your-profile
 - GitHub: https://github.com/yourusername
